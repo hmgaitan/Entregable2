@@ -9,24 +9,16 @@ body {
     background-color: #fff;
 }
 
-
-/* *,
-h1 {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #fff;
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
 }
-
-body {
-    background-color: #000;
-}
-
-.col a {
-    text-decoration: none;
-    color: #fff;
-    padding: 0.4rem;
-} */
 
 .content {
     background-color: #fff;
@@ -101,14 +93,6 @@ body {
     line-height: 1.8rem;
 }
 
-.button-row {
-    grid-column-gap: .75rem;
-    grid-row-gap: .75rem;
-    flex-wrap: wrap;
-    align-items: center;
-    display: flex;
-}
-
 .w-inline-block {
     width: 100%;
     display: inline-block;
@@ -149,6 +133,87 @@ img {
 
 }
 
+.testimony {
+    background-color: #f9fafb;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.large-container {
+    width: 100%;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vertical-padding {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.mwl-35 {
+    width: 100%;
+    max-width: 48rem;
+}
+
+.testimony-title {
+    text-align: left;
+    color: #101828;
+    letter-spacing: 0;
+    width: auto;
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.15;
+}
+
+.testimony-p {
+    color: #1d2939;
+    text-align: left;
+    letter-spacing: normal;
+    -webkit-text-stroke-color: #1d2939;
+    mix-blend-mode: normal;
+    align-self: auto;
+    align-items: stretch;
+    min-height: 10px;
+    padding-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+}
+
+.button-row {
+    grid-column-gap: .75rem;
+    grid-row-gap: .75rem;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+}
+
+.button-row.btn-row-center {
+    justify-content: center;
+}
+
+.button-row.btn-row-center.reverse-mobile {
+    grid-column-gap: 0rem;
+    grid-row-gap: 0rem;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.col a {
+    color: #000;
+    text-decoration: none;
+    padding: 0.6rem;
+}
+
+.col a:hover {
+    cursor: pointer;
+}
 @media screen and (max-width: 991px) {
     .design-vertical {
         padding-top: 3rem;
